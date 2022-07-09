@@ -1,0 +1,84 @@
+@font-face {
+    font-family: fun ;
+    src: url(font/f.otf);
+}
+
+body {
+    background: #191818;
+    font-family: fun ,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AC6C7F;
+}
+
+header{
+    background-color:#AC6C7F ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    color: #191818;
+}
+
+footer{
+    background-color: #AC6C7F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+button {
+    background-color: #AC6C7F;
+    border: none;
+    border-radius: 4px;
+    margin: 50px 0 50px 10px;
+    line-height: 40px;
+    width: 90px;
+    font-family: fun ,sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #FBE6EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button:hover {
+    background-color: #FBE6EB;
+    color: #191818;
+}
+
+.container{
+    display: grid;
+    height: 600px;
+    width: 800px;
+    z-index: 100;
+    background-color: #AC6C7F;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 2px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #191818;
+}
+.buttons button:last-child {
+    order: -1;
+}
